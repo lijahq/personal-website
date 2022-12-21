@@ -1,5 +1,5 @@
 import Home from "./pages/Home.js";
-import Resume from "./pages/Resume.js";
+import Resume from "./pages/Experience.js";
 import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import "./App.css";
@@ -13,9 +13,9 @@ function App() {
       <div className="hello">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Blog" element={<Blog />} />
+          <Route path="/experience" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
     </>

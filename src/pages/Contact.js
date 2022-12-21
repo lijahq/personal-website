@@ -1,7 +1,9 @@
+import contactStyles from "./Blog.module.css";
+
 function Contact() {
   return (
     <>
-      <div>Contact</div>
+      <div className={contactStyles.test}>Contact</div>
     </>
   );
 }

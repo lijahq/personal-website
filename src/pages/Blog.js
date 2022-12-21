@@ -1,7 +1,9 @@
+import blogStyles from "./Blog.module.css";
+
 function Blog() {
   return (
     <>
-      <div>Blog</div>
+      <div className={blogStyles.test}>Blog</div>
     </>
   );
 }

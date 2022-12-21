@@ -1,20 +1,21 @@
 import navbarStyles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <nav className={navbarStyles.nav}>
-      <a href="/" className={navbarStyles["site-title"]}>
+      <Link to="/" className={navbarStyles["site-title"]}>
         lijah.q
-      </a>
+      </Link>
       <ul>
         <li>
-          <a href="/resume">Experience</a>
+          <Link to="/experience">Experience</Link>
         </li>
         <li>
-          <a href="/blog">Blog</a>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>

@@ -1,6 +1,7 @@
 import photo from "./noir.jpg";
 import gif from "./trombone.gif";
 import homeStyles from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -30,12 +31,12 @@ function Home() {
       <div className={homeStyles.body}>
         <p>
           You can find my professional and maybe not-so professional developer
-          experiences under the <a href="/experiences">experiences</a> tab.
+          experiences under the <Link to="/experience">experience</Link> tab.
         </p>
         <p>
           I'm also passionate about music production and audio engineering. I'm
-          sharing my experiences and music under the <a href="/blog">blog</a>{" "}
-          tab.
+          sharing my experiences and music under the{" "}
+          <Link to="/blog">blog</Link> tab.
         </p>
       </div>
       <div className={homeStyles.body}>
