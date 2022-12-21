@@ -17,3 +17,31 @@ body {
   padding: 10px 50px;
   /* background-color: aqua; */
 }
+
+/* unvisited link */
+a:link {
+  color: #ff6e6e;
+  text-decoration: none;
+  border-bottom: 10px;
+}
+
+/* visited link */
+a:visited {
+  color: #ff6e6e;
+  text-decoration: none;
+  border-bottom: 1px;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: underline;
+  border-bottom: 10px;
+}
+
+/* selected link */
+a:active {
+  color: #ff6e6e;
+  text-decoration: none;
+  border-bottom: 1px;
+}
