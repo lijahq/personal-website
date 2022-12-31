@@ -15,9 +15,7 @@ function Home() {
           <h2 className={homeStyles.right}>My name is Elijah Quentin.</h2>
         </div>
         <div>
-          <h2 className={homeStyles.right}>
-            I'm an aspiring developer and problem-solver.
-          </h2>
+          <h3 className={homeStyles.right}>I'm an aspiring developer.</h3>
         </div>
       </div>
       <div className={homeStyles["right-container"]}>
@@ -30,8 +28,11 @@ function Home() {
       </div>
       <div className={homeStyles.body}>
         <p>
-          You can find my professional and maybe not-so professional developer
-          experiences under the <Link to="/experience">experience</Link> tab.
+          I'm currently a sophomore at the University of Nebraska at Lincoln.
+          I'm majoring in software engineering with a minor in entrepreneurship.
+          You can find my professional and maybe not-so professional experiences
+          in development and technology under the{" "}
+          <Link to="/experience">experience</Link> tab.
         </p>
         <p>
           I'm also passionate about music production and audio engineering. I'm
