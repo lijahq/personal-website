@@ -1,3 +1,22 @@
-.test {
+.main {
   color: white;
+}
+
+header h3,
+header h4 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  /* line-height: 50%; */
+  /* padding: 0.1rem 0; */
+}
+
+.italicized {
+  font-style: italic;
+}
+
+.title {
+  text-decoration: underline;
+  border-bottom: solid red;
+  text-decoration-thickness: 0.12rem;
+  text-underline-offset: 0.2rem;
 }

@@ -2,8 +2,7 @@ import articleStyles from "./article.module.css";
 import { useParams } from "react-router-dom";
 import { ArticleContent } from "./articleContent";
 import ReactMarkdown from "react-markdown";
-import { Component, Fragment } from "react";
-import { useState } from "react";
+import { Component } from "react";
 
 async function getArticles() {
   const importAll = (r) => r.keys().map(r);
@@ -16,7 +15,6 @@ async function getArticles() {
   const articles = [];
   for (const file of markdownFiles) {
     const article = await ArticleContent.fetchArticleContent(file);
-    // console.log(article);
     articles.push(article);
   }
   return articles;
@@ -39,35 +37,32 @@ class Article extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      articles: [],
+      article: [],
     };
   }
 
   async componentDidMount() {
     const articles = await getArticles();
-    this.setState((state) => ({ ...state, articles }));
+    const article = findArticle(this.props.params.fileName, articles);
+    this.setState((state) => ({ ...state, article }));
   }
 
   render() {
-    const { articles } = this.state;
-    const test = findArticle(this.props.params.fileName, articles);
-    console.log(test);
+    const { article } = this.state;
 
     return (
-      <Fragment>
-        <div className={articleStyles.test}>
-          {articles.map((article, idx) => (
-            <div className="card">
-              <div className="card-content">
-                <div className="content">
-                  <ReactMarkdown children={test.content} />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        {/* <ReactMarkdown children={articles[0]} /> */}
-      </Fragment>
+      <div className={articleStyles.main}>
+        <header>
+          <h1 className={articleStyles.title}>{article.title}</h1>
+          <h3>{article.description}</h3>
+          <h4 className={articleStyles.italicized}>
+            <span>published </span>
+            {article.date}
+          </h4>
+        </header>
+        {/* <div>test</div> */}
+        <ReactMarkdown children={article.content} />
+      </div>
     );
   }
 }
