@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 // import Helmet from "react-helmet";
 import blogStyles from "./Blog.module.css";
 import ReactMarkdown from "react-markdown";
+import { Link } from "react-router-dom";
 // import matter from "gray-matter";
 // import markdown from "./test.md";
 // import remarkGfm from "remark-gfm";
@@ -41,6 +42,7 @@ class Blog extends React.Component {
 
     return (
       <Fragment>
+        <Link to="/blog/test">Blog</Link>
         {/* <Helmet title="What's New" /> */}
         <section className="hero">... title stuff</section>
         <section className="section">
