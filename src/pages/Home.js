@@ -18,13 +18,17 @@ function Home() {
           <h3 className={homeStyles.right}>I'm an aspiring developer.</h3>
         </div>
       </div>
-      <div className={homeStyles["right-container"]}>
-        <img src={gif} alt="trombone" className={homeStyles.image}></img>
-        <div>
-          <h3 className={homeStyles.right}>
-            I also like to play the trombone*.
-          </h3>
+      <div className={homeStyles.linebreak}>
+        <hr></hr>
+        <div className={homeStyles["right-container"]}>
+          <img src={gif} alt="trombone" className={homeStyles.image}></img>
+          <div>
+            <h3 className={homeStyles.right}>
+              I also like to play the trombone*.
+            </h3>
+          </div>
         </div>
+        <hr></hr>
       </div>
       <div className={homeStyles.body}>
         <p>

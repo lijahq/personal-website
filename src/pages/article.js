@@ -60,8 +60,10 @@ class Article extends Component {
             {article.date}
           </h4>
         </header>
-        {/* <div>test</div> */}
-        <ReactMarkdown children={article.content} />
+        <ReactMarkdown
+          className={articleStyles.markdown}
+          children={article.content}
+        />
       </div>
     );
   }

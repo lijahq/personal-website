@@ -37,6 +37,10 @@
   background-color: #555;
 }
 
+.nav li a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 640px) {
   .nav {
     padding: 1rem 1rem;

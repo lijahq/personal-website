@@ -16,4 +16,12 @@ export class ArticleContent {
 
     return new ArticleContent(extractedFile.data, extractedFile.content);
   }
+
+  static async fetchArticles(slugs) {
+    const articles = [];
+    for (const slug of slugs) {
+      articles.push(this.fetchArticleContent(slug));
+    }
+    return articles;
+  }
 }

@@ -1,16 +1,102 @@
-.blog {
+/* .blog {
   color: black;
-}
+} */
 
 .card {
   border-style: solid;
-  border-color: red;
-  padding: 1rem;
+  border-color: white;
+  border-width: 0.01rem;
+  /* padding: 1rem; */
   max-width: 700px;
   color: white;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  transition: 0.11s;
 }
 
-h1 {
+.card:hover {
+  border: 0.4rem;
+  /* border-width: 0.4rem; */
+  border-style: double;
+}
+
+.blog h1,
+.blog h2,
+.blog p {
   margin: 0;
+}
+
+/* h4 {
+  margin: 0.4rem 0;
+} */
+
+.content {
+  padding: 1rem;
+  margin: 0;
+  /* text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  text-underline-offset: 0.4rem; */
+}
+
+/* .content:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.01rem;
+  text-underline-offset: 0.4rem;
+} */
+
+.date {
+  text-decoration: none;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.highlight {
+  background-color: white;
+  /* color: black; */
+  font-weight: bolder;
+  padding: 0 0.1rem;
+}
+
+.welcome {
+  margin: 2rem 0 2rem 0;
+}
+
+.blog h2 {
+  line-height: 4rem;
+
+  text-decoration-thickness: 0.01rem;
+  text-underline-offset: 0.4rem;
+}
+
+.blog h4 {
+  margin: 0.5rem 0;
+}
+
+.blog a:link {
+  text-decoration: none;
+}
+.blog a:visited {
+  text-decoration: none;
+}
+.blog a:hover {
+  text-decoration: none;
+}
+.blog a:active {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .large {
+    display: none;
+  }
+  /* .large {
+    display: none;
+  } */
+}
+
+@media only screen and (min-width: 640px) {
+  .small {
+    display: none;
+  }
 }

@@ -1,47 +1,69 @@
 import React, { Fragment } from "react";
 import blogStyles from "./Blog.module.css";
-import { Link } from "react-router-dom";
+import { ArticleContent } from "./articleContent";
+import photo from "./blog.png";
+import smallPhoto from "./blog-smaller.png";
 
-const importAll = (r) => r.keys().map(r);
-const markdownFiles = importAll(require.context("./blogPages", false, /\.md$/))
-  .sort()
-  .reverse();
+async function getArticles() {
+  const importAll = (r) => r.keys().map(r);
+  const markdownFiles = importAll(
+    require.context("./blogPages", false, /\.md$/)
+  )
+    .sort()
+    .reverse();
+
+  const articles = [];
+  for (const file of markdownFiles) {
+    const article = await ArticleContent.fetchArticleContent(file);
+    articles.push(article);
+  }
+  return articles;
+}
 
 class Blog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      posts: [],
+      articles: [],
     };
   }
 
   async componentDidMount() {
-    const posts = await Promise.all(
-      markdownFiles.map((file) => fetch(file).then((res) => res.text()))
-    ).catch((err) => console.error(err));
-
-    this.setState((state) => ({ ...state, posts }));
+    const articles = await getArticles();
+    this.setState((state) => ({ ...state, articles }));
   }
 
   render() {
-    const { posts } = this.state;
+    const { articles } = this.state;
 
     return (
       <div className={blogStyles.blog}>
         <Fragment>
-          <Link to="/blog/one.md">Test Article!</Link>
+          <img src={photo} alt="trombone" className={blogStyles.large}></img>
+          <img
+            src={smallPhoto}
+            alt="small trombone"
+            className={blogStyles.small}
+          ></img>
+          <div className={blogStyles.welcome}>
+            Welcome to my personal blog. At the time I'm making this, I'm
+            planning on using this as a platform for my music projects. In time
+            I imagine I'll also have some articles up related to engineering and
+            programming. Either way, I'll try to stay in my lane.
+          </div>
+          <h1>Articles</h1>
           <div className={blogStyles.container}>
-            {posts.map((post, idx) => (
+            {articles.map((article, idx) => (
               <div className={blogStyles.card} key={idx}>
-                <div className={blogStyles.content}>
-                  <h1 className={blogStyles.title}>
-                    Something Profound to Consider
-                  </h1>
-                  <div className={blogStyles.description}>
-                    Longer description that talks about the article.
+                <a href={`/blog/${article.fileName}`}>
+                  <div className={blogStyles.content}>
+                    <h2 className={blogStyles.title}>{article.title}</h2>
+                    <h4 className={blogStyles.description}>
+                      {article.description}
+                    </h4>
+                    <p className={blogStyles.date}>{article.date}</p>
                   </div>
-                  <div className={blogStyles.date}>2023/01/02</div>
-                </div>
+                </a>
               </div>
             ))}
           </div>

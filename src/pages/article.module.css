@@ -1,5 +1,6 @@
 .main {
   color: white;
+  /* margin: auto; */
 }
 
 header h3,
@@ -20,3 +21,9 @@ header h4 {
   text-decoration-thickness: 0.12rem;
   text-underline-offset: 0.2rem;
 }
+
+/* .markdown {
+  color: black;
+  background-color: red;
+  padding: 2rem;
+} */
