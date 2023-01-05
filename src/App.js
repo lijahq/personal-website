@@ -5,7 +5,7 @@ import Blog from "./pages/Blog";
 import Article from "./pages/article.js";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
             render={(props) => <Article {...props} />}
           /> */}
           <Route path="/blog/:fileName" element={<Article />} />
+          <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
       </div>
     </>

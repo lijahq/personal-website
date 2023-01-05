@@ -51,6 +51,7 @@ class Blog extends React.Component {
             I imagine I'll also have some articles up related to engineering and
             programming. Either way, I'll try to stay in my lane.
           </div>
+          <hr></hr>
           <h1>Articles</h1>
           <div className={blogStyles.container}>
             {articles.map((article, idx) => (

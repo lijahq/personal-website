@@ -25,6 +25,10 @@
   margin: 0;
 }
 
+.blog h1 {
+  margin: 2rem 0 0 0;
+}
+
 /* h4 {
   margin: 0.4rem 0;
 } */
