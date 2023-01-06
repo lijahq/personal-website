@@ -5,6 +5,7 @@ import Blog from "./pages/Blog";
 import Article from "./pages/article.js";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/blog/:fileName" element={<Article />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
+        <Footer />
       </div>
     </>
   );

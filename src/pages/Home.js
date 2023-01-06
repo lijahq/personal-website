@@ -30,25 +30,23 @@ function Home() {
         </div>
         <hr></hr>
       </div>
-      <div className={homeStyles.body}>
-        <p>
-          I'm currently a sophomore at the University of Nebraska at Lincoln.
-          I'm majoring in software engineering with a minor in entrepreneurship.
-          You can find my professional and maybe not-so professional experiences
-          in development and technology under the{" "}
-          <Link to="/experience">experience</Link> tab.
-        </p>
-        <p>
-          I'm also passionate about music production and audio engineering. I'm
-          sharing my experiences and music under the{" "}
-          <Link to="/blog">blog</Link> tab.
-        </p>
+      <div>
+        <div className={homeStyles.about}>
+          <p className={homeStyles.p}>
+            I'm currently a sophomore at the University of Nebraska at Lincoln.
+            I'm majoring in software engineering with a minor in
+            entrepreneurship. You can find my professional and maybe not-so
+            professional experiences in development and technology under the{" "}
+            <Link to="/experience">experience</Link> tab.
+          </p>
+          <p className={homeStyles.p}>
+            I'm also passionate about music production and audio engineering.
+            I'm sharing my experiences and music under the{" "}
+            <Link to="/blog">blog</Link> tab.
+          </p>
+          <p className={homeStyles.right}>*(and many other instruments)</p>
+        </div>
       </div>
-      <div className={homeStyles.body}>
-        <p className={homeStyles.right}>*(and many other instruments)</p>
-      </div>
-      <div className={homeStyles["left-container"]}></div>
-      <div className={homeStyles["left-container"]}></div>
     </>
   );
 }
