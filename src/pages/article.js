@@ -3,6 +3,7 @@ import { Navigate, useParams } from "react-router-dom";
 import { ArticleContent } from "./articleContent";
 import ReactMarkdown from "react-markdown";
 import { Component } from "react";
+import rehypeRaw from "rehype-raw";
 
 async function getArticles() {
   const importAll = (r) => r.keys().map(r);
@@ -72,6 +73,7 @@ class Article extends Component {
           </h4>
         </header>
         <ReactMarkdown
+          rehypePlugins={[rehypeRaw]}
           className={articleStyles.markdown}
           children={article.content}
         />

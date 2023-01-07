@@ -1,23 +1,43 @@
 ---
-fileName: another-file.md
-title: Hey I'm a test file!
-description: Seriously, I just wantthis to work.
+fileName: this-is-not-celery.md
+title: This is Not Celery
+description: Cool, but who said that music was a vegetable?
 isPublished: true
-publishedDate: 01/02/2023
+publishedDate: 2023/01/06
 ---
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
+---
 
-Paragraph one. Some interesting sentences. Maybe even a profound statement. If not two.
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1oaX7pTNAO3xhMmXmaQdgw?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-Paragraphs generally need to stay short within this context. Just a sentence or two. Perhaps even three, but only occasionally.
+Not Celery was my first released production. You can (probably) find it on your favorite streaming service.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Walking_tiger_female.jpg/1920px-Walking_tiger_female.jpg)
+We had more than a few recording sessions in his apartment, and it was a lot of fun to create a mobile studio. With the right equipment (and more importantly the right knowledge) it was more of a fun and challenging process than a difficult and frustrating journey.
 
-But we can also do longer paragraphs.
+<video muted height="500px" width="100%" controls>
+  <source src="https://drive.google.com/uc?export=view&id=12SVyXSIk3P0XWEDJbJN55pfn4XNSvUNw" type="video/mp4">
+</video>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+# Be an engineer first, so you can make art later
 
-Even really long paragraphs.
+Not Celery began its production lifecycle during the summer of '22, and by August I had a finished product.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+But, it wasn't ready for release. The music just fell flat. And Cameron's wife knew it too... she was kind but not afraid to criticize what we had. Now the goal wasn't to break the charts - but I really had hoped to make something Cameron could be proud of.
+
+I could have thought about the art... but that wouldn't have been productive or helpful. So instead, I sat down with another friend and I put on my engineering hat.
+
+Anyone who wears the engineering hat for more a few minutes comes to this conclusion: there's a problem!
+
+My friend helped me realize that the key was too low. This was killing the music because I was having Cameron sing at the low end of his vocal range. I just wasn't getting exciting vocal takes at that register. So I rebuilt our tracks around the key of Ab instead of F. Looking back, the aestetics of Ab were better anyway.
+
+One recording session later (albeit a few mixing sessions as well)... we had an entirely different song.
+
+---
+
+My theory is this: that if you solve the _right_ problems upfront — you give yourself a better space to make better art.
+
+And I'm starting to think that most of "being an engineer" is really just about defining the problem, not necessarily just solving it.
+
+---
+
+<iframe width="100%" height="250px" src="https://www.youtube-nocookie.com/embed/7Pbe6KmHF9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
