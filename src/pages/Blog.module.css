@@ -1,12 +1,7 @@
-/* .blog {
-  color: black;
-} */
-
 .card {
   border-style: solid;
   border-color: white;
   border-width: 0.01rem;
-  /* padding: 1rem; */
   max-width: 700px;
   color: white;
   margin: 2rem 0;
@@ -15,7 +10,6 @@
 
 .card:hover {
   border: 0.4rem;
-  /* border-width: 0.4rem; */
   border-style: double;
 }
 
@@ -29,23 +23,10 @@
   margin: 2rem 0 0 0;
 }
 
-/* h4 {
-  margin: 0.4rem 0;
-} */
-
 .content {
   padding: 1rem;
   margin: 0;
-  /* text-decoration: underline;
-  text-decoration-thickness: 0.01rem;
-  text-underline-offset: 0.4rem; */
 }
-
-/* .content:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 0.01rem;
-  text-underline-offset: 0.4rem;
-} */
 
 .date {
   text-decoration: none;
@@ -57,7 +38,6 @@
 
 .highlight {
   background-color: white;
-  /* color: black; */
   font-weight: bolder;
   padding: 0 0.1rem;
 }
@@ -94,9 +74,6 @@
   .large {
     display: none;
   }
-  /* .large {
-    display: none;
-  } */
 }
 
 @media only screen and (min-width: 640px) {

@@ -18,11 +18,6 @@ function App() {
           <Route path="/experience" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          {/* <Route
-            exact
-            path="/blog/:id"
-            render={(props) => <Article {...props} />}
-          /> */}
           <Route path="/blog/:fileName" element={<Article />} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>

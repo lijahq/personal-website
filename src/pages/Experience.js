@@ -21,24 +21,6 @@ function experience() {
     pdfs.push(pdf);
   }
 
-  console.log(pdfs);
-
-  // const onButtonClick = () => {
-  //   // using Java Script method to get PDF file
-  //   const pdf = pdfs.pop();
-  //   fetch(pdf).then((response) => {
-  //     response.blob().then((blob) => {
-  //       // Creating new object of PDF file
-  //       const fileURL = window.URL.createObjectURL(blob);
-  //       // Setting various property values
-  //       let alink = document.createElement("a");
-  //       alink.href = fileURL;
-  //       alink.download = pdf;
-  //       alink.click();
-  //     });
-  //   });
-  // };
-
   return (
     <>
       <div className={experienceStyles.test}>

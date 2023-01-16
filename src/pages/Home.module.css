@@ -1,19 +1,11 @@
 .image {
   max-width: 70%;
   height: auto;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
 }
 
-/* this needs fixed */
 .left-container,
 .right-header,
 .body {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  /* background-color: white; */
   color: white;
   padding: 0 0 4rem 0;
   width: 100%;
@@ -47,7 +39,6 @@
     align-items: center;
   }
   .right-header {
-    /* display: flex; */
     justify-content: right;
     align-items: center;
   }
