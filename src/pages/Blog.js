@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import blogStyles from "./Blog.module.css";
-import { ArticleContent } from "./articleContent";
-import photo from "./blog.png";
-import smallPhoto from "./blog-smaller.png";
+import { ArticleContent } from "../components/articleContent";
+import headerPhoto from "../media/img/blog.png";
+import smallHeaderPhoto from "../media/img/blog-smaller.png";
 
 async function getArticles() {
   const importAll = (r) => r.keys().map(r);
   const markdownFiles = importAll(
-    require.context("./blogPages", false, /\.md$/)
+    require.context("../media/blogPages", false, /\.md$/)
   )
     .sort()
     .reverse();
@@ -39,9 +39,13 @@ class Blog extends React.Component {
     return (
       <div className={blogStyles.blog}>
         <Fragment>
-          <img src={photo} alt="trombone" className={blogStyles.large}></img>
           <img
-            src={smallPhoto}
+            src={headerPhoto}
+            alt="trombone"
+            className={blogStyles.large}
+          ></img>
+          <img
+            src={smallHeaderPhoto}
             alt="small trombone"
             className={blogStyles.small}
           ></img>

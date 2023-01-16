@@ -40,4 +40,4 @@ And I'm starting to think that most of "being an engineer" is really just about 
 
 ---
 
-<iframe width="100%" height="250px" src="https://www.youtube-nocookie.com/embed/7Pbe6KmHF9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="250px" src="https://www.youtube-nocookie.com/embed/kQZU3t89NTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

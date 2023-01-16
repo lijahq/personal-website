@@ -1,6 +1,6 @@
 import articleStyles from "./article.module.css";
 import { Navigate, useParams } from "react-router-dom";
-import { ArticleContent } from "./articleContent";
+import { ArticleContent } from "../components/articleContent";
 import ReactMarkdown from "react-markdown";
 import { Component } from "react";
 import rehypeRaw from "rehype-raw";
@@ -8,7 +8,7 @@ import rehypeRaw from "rehype-raw";
 async function getArticles() {
   const importAll = (r) => r.keys().map(r);
   const markdownFiles = importAll(
-    require.context("./blogPages", false, /\.md$/)
+    require.context("../media/blogPages", false, /\.md$/)
   )
     .sort()
     .reverse();

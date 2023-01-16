@@ -1,5 +1,5 @@
-import photo from "./noir.jpg";
-import gif from "./trombone.gif";
+import photo from "../media/img/noir.jpg";
+import gif from "../media/img/trombone.gif";
 import homeStyles from "./Home.module.css";
 import { Link } from "react-router-dom";
 

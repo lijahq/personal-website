@@ -1,18 +1,18 @@
 import experienceStyles from "./Experience.module.css";
-import photo from "./experience.png";
-import smallPhoto from "./experience-smaller.png";
-import rentVision from "./RV.svg";
-import krmc from "./krmc.png";
-import axel from "./axel.svg";
-import cookie from "./cookie.svg";
-import buddySystems from "./buddysystems.svg";
+import photo from "../media/img/experience.png";
+import smallPhoto from "../media/img/experience-smaller.png";
+import rentVision from "../media/img/RV.svg";
+import krmc from "../media/img/krmc.png";
+import axel from "../media/img/axel.svg";
+import cookie from "../media/img/cookie.svg";
+import buddySystems from "../media/img/buddysystems.svg";
 import { Link } from "react-router-dom";
 
 function experience() {
   // TODO: Fix so that it pulls the resume, not just files with .pdf
   // Probably will break if I upload another PDF
   const importAll = (r) => r.keys().map(r);
-  const pdfFiles = importAll(require.context("./pdf", false, /\.pdf$/))
+  const pdfFiles = importAll(require.context("../media/pdf", false, /\.pdf$/))
     .sort()
     .reverse();
 

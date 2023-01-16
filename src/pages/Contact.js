@@ -1,6 +1,6 @@
 import contactStyles from "./Blog.module.css";
-import rocks from "./rocks.png";
-import rocksSmaller from "./rocks-smaller.png";
+import rocks from "../media/img/rocks.png";
+import rocksSmaller from "../media/img/rocks-smaller.png";
 
 function Contact() {
   return (
