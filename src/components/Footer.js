@@ -42,7 +42,11 @@ export default function Navbar() {
           bgColor="#111"
           fgColor="white"
         />
-        <SocialIcon url="mailto:#" bgColor="#111" fgColor="white" />
+        <SocialIcon
+          url="mailto:contact@lijahq.com"
+          bgColor="#111"
+          fgColor="white"
+        />
       </div>
     </footer>
   );

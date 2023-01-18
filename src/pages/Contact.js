@@ -12,11 +12,13 @@ function Contact() {
           alt="small trombone"
           className={contactStyles.small}
         ></img>
-        <p>Maybe someday I'll add a contact form.</p>
+        <p></p>
         <p>
-          Until then, you can <a href="#test">email</a> me at (email).
+          Best way to reach me is to{" "}
+          <a href="mailto:contact@lijahq.com">email</a> me at
+          contact@lijahq.com.
         </p>
-        <p>Just kidding. I don't have an email set up yet. :)</p>
+        <p>Hopefully the bots don't send me too much spam.</p>
       </div>
     </>
   );
