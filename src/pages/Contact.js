@@ -15,10 +15,11 @@ function Contact() {
         <p></p>
         <p>
           Best way to reach me is to{" "}
-          <a href="mailto:contact@lijahq.com">email</a> me at
+          <a href="mailto:#">email</a> me at
           contact@lijahq.com.
         </p>
         <p>Hopefully the bots don't send me too much spam.</p>
+        <p>UPDATE: Email is currently down :(</p>
       </div>
     </>
   );
