@@ -4,6 +4,12 @@ import { ArticleContent } from "../components/articleContent";
 import headerPhoto from "../media/img/blog.png";
 import smallHeaderPhoto from "../media/img/blog-smaller.png";
 
+function compareDates(a, b) {
+  const dateA = new Date(a.date);
+  const dateB = new Date(b.date);
+  return dateB - dateA;
+}
+
 async function getArticles() {
   const importAll = (r) => r.keys().map(r);
   const markdownFiles = importAll(
@@ -17,6 +23,8 @@ async function getArticles() {
     const article = await ArticleContent.fetchArticleContent(file);
     articles.push(article);
   }
+  articles.sort(compareDates);
+  console.log(articles);
   return articles;
 }
 
