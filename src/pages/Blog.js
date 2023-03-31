@@ -58,10 +58,10 @@ class Blog extends React.Component {
             className={blogStyles.small}
           ></img>
           <div className={blogStyles.welcome}>
-            Welcome to my personal blog. At the time I'm making this, I'm
-            planning on using this as a platform for my music projects. In time
-            I imagine I'll also have some articles up related to engineering and
-            programming. Either way, I'll try to stay in my lane.
+            This is the part of the website where I'm platforming my productions and sharing my experiences learning how to produce.
+
+          </div>
+          <div className={blogStyles.welcome}>Maybe some articles focused on engineering and programming someday.
           </div>
           <hr></hr>
           <h1>Articles</h1>

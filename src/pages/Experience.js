@@ -32,9 +32,9 @@ function experience() {
         ></img>
         <div className={experienceStyles.welcome}>
           <p>
-            This is a non-exhaustive list of experiences that I think may be
+            Some experiences that I think would be
             valuable for a potential employer to see. If you are that potential
-            employer — you can download my professional resume{" "}
+            employer — you can find my resume{" "}
             <Link
               to="route"
               onClick={(event) => {
@@ -44,8 +44,8 @@ function experience() {
             >
               here
             </Link>
-            . I'd also love to get in touch! You can find my email on the{" "}
-            <Link to="/contact">contact</Link> page.
+            . I'd also love to get in touch, please don't hesitate to{" "}
+            <Link to="/contact">contact</Link> me.
           </p>
           <p></p>
         </div>
