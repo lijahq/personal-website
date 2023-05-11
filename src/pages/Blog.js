@@ -25,6 +25,7 @@ async function getArticles() {
   }
   articles.sort(compareDates);
   console.log(articles);
+  console.log(articles);
   return articles;
 }
 
