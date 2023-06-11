@@ -33,18 +33,7 @@ function experience() {
         <div className={experienceStyles.welcome}>
           <p>
             Some experiences that I think would be
-            valuable for a potential employer to see. If you are that potential
-            employer — you can find my resume{" "}
-            <Link
-              to="route"
-              onClick={(event) => {
-                event.preventDefault();
-                window.open(pdfFiles[0]);
-              }}
-            >
-              here
-            </Link>
-            . I'd also love to get in touch, please don't hesitate to{" "}
+            valuable for a potential employer to see. I'd also love to get in touch, please don't hesitate to{" "}
             <Link to="/contact">contact</Link> me.
           </p>
           <p></p>
