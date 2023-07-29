@@ -11,15 +11,15 @@ import { Link } from "react-router-dom";
 function experience() {
   // TODO: Fix so that it pulls the resume, not just files with .pdf
   // Probably will break if I upload another PDF
-  const importAll = (r) => r.keys().map(r);
-  const pdfFiles = importAll(require.context("../media/pdf", false, /\.pdf$/))
-    .sort()
-    .reverse();
+  // const importAsll = (r) => r.keys().map(r);
+  // const pdfFiles = importAll(require.context("../media/pdf", false, /\.pdf$/))
+  //   .sort()
+  //   .reverse();
 
   const pdfs = [];
-  for (const pdf of pdfFiles) {
-    pdfs.push(pdf);
-  }
+  // for (const pdf of pdfFiles) {
+  //   pdfs.push(pdf);
+  // }
 
   return (
     <>
