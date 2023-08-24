@@ -28,22 +28,27 @@ export default function Navbar() {
       </nav>
       <div className={footerStyles.icons}>
         <SocialIcon
-          url="https://github.com/elijahquentin"
+          url="https://github.com/lijahq"
           bgColor="#111"
           fgColor="white"
         />
         <SocialIcon
-          url="https://twitter.com/lijah_q"
+          url="https://www.linkedin.com/in/lijahq/"
+          bgColor="#111"
+          fgColor="white"
+        />
+        <SocialIcon
+          url="https://open.spotify.com/artist/3r7lZG0xvpdp6RkBS5bkTK?si=5aecNbwgRpOyTI2UUfb1dg"
+          bgColor="#111"
+          fgColor="white"
+        />
+        <SocialIcon
+          url="https://www.youtube.com/@lijahq"
           bgColor="#111"
           fgColor="white"
         />
         <SocialIcon
           url="https://www.instagram.com/lijah.q/"
-          bgColor="#111"
-          fgColor="white"
-        />
-        <SocialIcon
-          url="mailto:contact@lijahq.com"
           bgColor="#111"
           fgColor="white"
         />

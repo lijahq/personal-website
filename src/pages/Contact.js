@@ -12,14 +12,19 @@ function Contact() {
           alt="small trombone"
           className={contactStyles.small}
         ></img>
-        <p></p>
         <p>
-          Best way to reach me is to{" "}
-          <a href="mailto:#">email</a> me at
-          contact@lijahq.com.
+          The part of the website where I list my email.
         </p>
-        <p>Hopefully the bots don't send me too much spam.</p>
-        <p>UPDATE: Email is currently down :(</p>
+        <p>
+          If you are looking for an emerging software engineer with a full-stack skillset
+          and excellent communication skills, I would love to connect with you.
+        </p>
+        <p>
+          You can email me at:
+        </p>
+        <p>
+          contact [at] lijahq [dot] com
+        </p>
       </div>
     </>
   );

@@ -12,11 +12,9 @@ publishedDate: 2023/01/06
 
 Not Celery was my first released production. You can (probably) find it on your favorite streaming service.
 
-We had more than a few recording sessions in his apartment, and it was a lot of fun to create a mobile studio. With the right equipment (and more importantly the right knowledge) it was more of a fun and challenging process than a difficult and frustrating journey.
+We had more than a few recording sessions in Cam's apartment, and it was a lot of fun to create a mobile studio. With the right equipment (and more importantly the right knowledge) it was more of a fun and challenging process than a difficult and frustrating journey.
 
-<video muted height="500px" width="100%" controls>
-  <source src="https://drive.google.com/uc?export=view&id=12SVyXSIk3P0XWEDJbJN55pfn4XNSvUNw" type="video/mp4">
-</video>
+---
 
 # Be an engineer first, so you can make art later
 

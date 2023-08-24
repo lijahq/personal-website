@@ -59,8 +59,10 @@ class Blog extends React.Component {
             className={blogStyles.small}
           ></img>
           <div className={blogStyles.welcome}>
-            This is the part of the website where I'm platforming my productions and sharing my experiences learning how to produce.
-
+            The part of the website with my music and my occasional soapbox on making art.
+          </div>
+          <div className={blogStyles.welcome}>
+            You can find me on <a href="https://open.spotify.com/artist/3r7lZG0xvpdp6RkBS5bkTK?si=5aecNbwgRpOyTI2UUfb1dg">Spotify</a> and <a href="https://www.youtube.com/@lijahq">YouTube</a>.
           </div>
           <div className={blogStyles.welcome}>Maybe some articles focused on engineering and programming someday.
           </div>

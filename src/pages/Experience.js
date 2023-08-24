@@ -2,7 +2,7 @@ import experienceStyles from "./Experience.module.css";
 import photo from "../media/img/experience.png";
 import smallPhoto from "../media/img/experience-smaller.png";
 import rentVision from "../media/img/RV.svg";
-import krmc from "../media/img/krmc.png";
+import johnDeere from "../media/img/john_deere.png";
 import axel from "../media/img/axel.svg";
 import cookie from "../media/img/cookie.svg";
 import buddySystems from "../media/img/buddysystems.svg";
@@ -32,14 +32,50 @@ function experience() {
         ></img>
         <div className={experienceStyles.welcome}>
           <p>
-            Some experiences that I think would be
-            valuable for a potential employer to see. I'd also love to get in touch, please don't hesitate to{" "}
-            <Link to="/contact">contact</Link> me.
+            The part of the website where I list of some of my experiences as a developer. 
+          </p>
+          <p>
+            Currently, I'm looking for full-time internships
+            next summer, and part-time positions that begin in January of 2024.
+          </p>
+          <p>
+            I'm highly interested in startup opportunities. If you are looking for a full-stack developer with
+            a passion for innovative solutions, I would love to get in touch. Please don't hesitate to{" "}
+            <Link to="/contact">contact</Link> me!
           </p>
           <p></p>
         </div>
         <hr></hr>
         <h1>Work Experience</h1>
+        <div className={experienceStyles.job}>
+          <div className={experienceStyles.content}>
+            <h2>
+              <a
+                href="https://www.deere.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                John Deere - Summer of 2023
+              </a>
+            </h2>
+            <p>
+              Working at John Deere Financial as a part of team Customer Crew, I developed and deployed code for{" "}
+              <a href="https://myfinancialaccounts.deere.com">My Financial Accounts</a>.
+            </p>
+            <p>
+              My understanding of backend architecture grew quite a bit throughout this experience. Watching my team restructure
+              their API for new integrations, I learned how to better think about designing API's. I also gained experience working
+              with a variety of AWS technologies.
+            </p>
+            <p>
+              I also enjoyed getting to present at demos. For me, it's a fun challenge trying to get technical information accross
+              and demystify things for a non-technical audience.
+            </p>
+          </div>
+          {/* <div className={experienceStyles.krmc}> */}
+            <img src={johnDeere} alt="test"></img>
+          {/* </div> */}
+        </div>
         <div className={experienceStyles.job}>
           <div className={experienceStyles.content}>
             <h2>
@@ -66,38 +102,9 @@ function experience() {
               used the website.
             </p>
           </div>
-          <img src={rentVision} alt="test"></img>
+          <img src={rentVision} alt="RentVision logo"></img>
         </div>
-        <div className={experienceStyles.job}>
-          <div className={experienceStyles.content}>
-            <h2>
-              <a
-                href="https://www.bryanhealth.com/locations/hospitals/krmc/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Kearney Regional Medical Center - Summer of 2019
-              </a>
-            </h2>
-            <p>
-              My first tech job. And it was a fun job. I got to see just about
-              every square inch of the hospital.
-            </p>
-            <p>
-              I updated a lot of computers, helped clean up the active
-              directory, and responded to several help desk tickets with
-              headlines such as "Broken Keyboard." Often times I would just need
-              to plug in the keyboard again. :)
-            </p>
-            <p>
-              This job made me a better communicator because I needed to ask for
-              help often.
-            </p>
-          </div>
-          <div className={experienceStyles.krmc}>
-            <img src={krmc} alt="test"></img>
-          </div>
-        </div>
+        
         <hr></hr>
         <h1>Projects</h1>
         <div className={experienceStyles.project}>
