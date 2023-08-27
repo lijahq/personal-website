@@ -6,6 +6,7 @@ import johnDeere from "../media/img/john_deere.png";
 import axel from "../media/img/axel.svg";
 import cookie from "../media/img/cookie.svg";
 import buddySystems from "../media/img/buddysystems.svg";
+import unl from "../media/img/ofr.png";
 import { Link } from "react-router-dom";
 
 function experience() {
@@ -80,6 +81,36 @@ function experience() {
           <div className={experienceStyles.content}>
             <h2>
               <a
+                href="https://resultsfinder.unl.edu"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                On Farm Research Network - Spring of 2023
+              </a>
+            </h2>
+            <p>
+              I contributed to <a href="https://resultsfinder.unl.edu">resultsfinder.unl.edu</a>{" "}
+              over the course of a semester, giving consulting to the stakeholders and ultimately
+              providing some new features to the website.
+            </p>
+            <p>
+              Specifically, I increased the search speeds dramatically by optimizing the system, and I implemented
+              new features to integrate yield data into their database. 
+            </p>
+            <p>
+              These new features essentially boil down to the addition of the yield column. I was challenged in
+              figuring out how to build upon the existing backend framework, given that the project and some of the code was
+              approaching a decade of age.
+            </p>
+          </div>
+          {/* <div className={experienceStyles.krmc}> */}
+            <img src={unl} alt="test"></img>
+          {/* </div> */}
+        </div>
+        <div className={experienceStyles.job}>
+          <div className={experienceStyles.content}>
+            <h2>
+              <a
                 href="https://www.rentvision.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -97,7 +128,7 @@ function experience() {
               Specifically, I spent time auditing their website templates
               according to WCAG 2.0 Level AA. Related to UI/UX — I presented
               research from analyzing Hotjar generated content from their
-              website. It's fascinating to compare the difference between how we
+              website. It's interesting to compare the difference between how we
               expect users to engage with the website against how they actually
               used the website.
             </p>
