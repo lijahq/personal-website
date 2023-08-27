@@ -12,15 +12,15 @@ import { Link } from "react-router-dom";
 function experience() {
   // TODO: Fix so that it pulls the resume, not just files with .pdf
   // Probably will break if I upload another PDF
-  // const importAsll = (r) => r.keys().map(r);
-  // const pdfFiles = importAll(require.context("../media/pdf", false, /\.pdf$/))
-  //   .sort()
-  //   .reverse();
+  const importAll = (r) => r.keys().map(r);
+  const pdfFiles = importAll(require.context("../media/pdf", false, /\.pdf$/))
+    .sort()
+    .reverse();
 
-  // const pdfs = [];
-  // for (const pdf of pdfFiles) {
-  //   pdfs.push(pdf);
-  // }
+  const pdfs = [];
+  for (const pdf of pdfFiles) {
+    pdfs.push(pdf);
+  }
 
   return (
     <>
@@ -43,6 +43,18 @@ function experience() {
             I'm highly interested in startup opportunities. If you are looking for a full-stack developer with
             a passion for innovative solutions, I would love to get in touch. Please don't hesitate to{" "}
             <Link to="/contact">contact</Link> me!
+          </p>
+          <p>
+            You can find my resume{" "}
+            <Link
+              to="route"
+              onClick={(event) => {
+                event.preventDefault();
+                window.open(pdfFiles[0]);
+              }}
+            >
+              here
+            </Link>.
           </p>
           <p></p>
         </div>
