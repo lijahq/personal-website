@@ -3,9 +3,6 @@ import photo from "../media/img/experience.png";
 import smallPhoto from "../media/img/experience-smaller.png";
 import rentVision from "../media/img/RV.svg";
 import johnDeere from "../media/img/john_deere.png";
-import axel from "../media/img/axel.svg";
-import cookie from "../media/img/cookie.svg";
-import buddySystems from "../media/img/buddysystems.svg";
 import unl from "../media/img/ofr.png";
 import { Link } from "react-router-dom";
 
