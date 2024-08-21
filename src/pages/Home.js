@@ -12,7 +12,7 @@ function Home() {
       </div>
       <div className={homeStyles["right-header"]}>
         <div>
-          <h2 className={homeStyles.right}>My name is Elijah Quentin.</h2>
+          <h2 className={homeStyles.right}>My name is Elijah Smith.</h2>
         </div>
         <div>
           <h3 className={homeStyles.right}>I'm an aspiring developer.</h3>
