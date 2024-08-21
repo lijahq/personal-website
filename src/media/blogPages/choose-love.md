@@ -12,13 +12,7 @@ publishedDate: 2024/01/04
 
 # Poetry!
 
-I've been writing more poetry lately, and I wanted to record some music alongside a poem. 
-
-I like the freedom and sandbox that spoken word is. This will not be the last poem/music upload. Didn't think of this too much at the time of recording - but after editing this I will definitely have my lines memorized next time.
-
-While the guitar playing alongside my reading of the poem totally adds to the vibe - it was actually improvised to keep me from needing to read the poem in one take. I love how avoiding perfection (in the moment of recording the poem) ended up contributing a whole new layer to this project through the instrumental recordings.
-
-Excited to be a year into finishing music projects, and even more excited for the year ahead.
+I've been writing more poetry lately, and I wanted to record some music alongside a poem.
 
 ---
 

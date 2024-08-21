@@ -33,16 +33,17 @@ function experience() {
         ></img>
         <div className={experienceStyles.welcome}>
           <p>
-            The part of the website where I list of some of my experiences as a developer. 
+            The part of the website where I list of some of my experiences as a
+            developer.
           </p>
           <p>
-            Currently, I'm looking for full-time internships
-            next summer, and part-time positions that begin in January of 2024.
+            Currently, I'm looking for full-time positions beginning in January
+            of 2025.
           </p>
           <p>
-            I'm highly interested in startup opportunities. If you are looking for a full-stack developer with
-            a passion for innovative solutions, I would love to get in touch. Please don't hesitate to{" "}
-            <Link to="/contact">contact</Link> me!
+            If you are looking for a full-stack developer with a passion for
+            innovative solutions, I would love to get in touch. Please don't
+            hesitate to <Link to="/contact">contact</Link> me!
           </p>
           <p>
             You can find my resume{" "}
@@ -54,7 +55,8 @@ function experience() {
               }}
             >
               here
-            </Link>.
+            </Link>
+            .
           </p>
           <p></p>
         </div>
@@ -68,25 +70,27 @@ function experience() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                John Deere - Summer of 2023
+                John Deere - Summer of 2023 and 2024
               </a>
             </h2>
             <p>
-              Working at John Deere Financial as a part of team Customer Crew, I developed and deployed code for{" "}
-              <a href="https://myfinancialaccounts.deere.com">My Financial Accounts</a>.
+              Working at John Deere Financial as a part of team Customer Crew, I
+              developed and deployed code for{" "}
+              <a href="https://myfinancialaccounts.deere.com">
+                My Financial Accounts
+              </a>
+              .
             </p>
             <p>
-              My understanding of backend architecture grew quite a bit throughout this experience. Watching my team restructure
-              their API for new integrations, I learned how to better think about designing API's. I also gained experience working
-              with a variety of AWS technologies.
-            </p>
-            <p>
-              I also enjoyed getting to present at demos. For me, it's a fun challenge trying to get technical information accross
-              and demystify things for a non-technical audience.
+              My understanding of backend architecture grew quite a bit
+              throughout this experience. Watching my team restructure their API
+              for new integrations, I learned how to better think about
+              designing API's. I also gained experience working with a variety
+              of AWS technologies.
             </p>
           </div>
           {/* <div className={experienceStyles.krmc}> */}
-            <img src={johnDeere} alt="test"></img>
+          <img src={johnDeere} alt="test"></img>
           {/* </div> */}
         </div>
         <div className={experienceStyles.job}>
@@ -97,26 +101,27 @@ function experience() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                On Farm Research Network - Spring of 2023
+                On Farm Research Network - Spring of 2023 and 2024
               </a>
             </h2>
             <p>
-              I contributed to <a href="https://resultsfinder.unl.edu">resultsfinder.unl.edu</a>{" "}
-              over the course of a semester, giving consulting to the stakeholders and ultimately
-              providing some new features to the website.
+              I contributed to{" "}
+              <a href="https://resultsfinder.unl.edu">resultsfinder.unl.edu</a>{" "}
+              over the course of a semester, giving consulting to the
+              stakeholders and providing new features to the website
             </p>
             <p>
-              Specifically, I increased the search speeds dramatically by optimizing the system, and I implemented
-              new features to integrate yield data into their database. 
+              Specifically, I increased the search speeds dramatically by
+              optimizing the system, and I implemented new features to integrate
+              yield data into their database.
             </p>
             <p>
-              These new features essentially boil down to the addition of the yield column. I was challenged in
-              figuring out how to build upon the existing backend framework, given that the project and some of the code was
-              approaching a decade of age.
+              In 2024, I helped migrate their website to new infrastructure to
+              keep up to date with university requirements.
             </p>
           </div>
           {/* <div className={experienceStyles.krmc}> */}
-            <img src={unl} alt="test"></img>
+          <img src={unl} alt="test"></img>
           {/* </div> */}
         </div>
         <div className={experienceStyles.job}>
@@ -146,105 +151,6 @@ function experience() {
             </p>
           </div>
           <img src={rentVision} alt="RentVision logo"></img>
-        </div>
-        
-        <hr></hr>
-        <h1>Projects</h1>
-        <div className={experienceStyles.project}>
-          <div className={experienceStyles.job}>
-            <div className={experienceStyles.content}>
-              <h2>
-                <a
-                  href="https://github.com/buddysystems/CookieJar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Cookie Jar
-                </a>
-              </h2>
-              <p>
-                Cookie Jar is a Chrome extension that gives you the ability to
-                easily visualize and manage your browser cookies.
-              </p>
-              <p>
-                This was my first real project working with JavaScript. Using
-                object oriented design, I helped display cookies on the
-                extension menu and give users options to store and delete them.
-                We pulled cookie data and manipulated it through the Chrome API.
-                The other technical challenge was working with and manipulating
-                the DOM with only JavaScript to keep the exstension lightweight.
-                It was a great segue into learning React (and building this
-                website).
-              </p>
-              <p>
-                Also, it felt righteous to damage Chrome's ability to track you
-                through building transparency amid the transition to Manifest
-                V3. Regardless, spending time on this project is what eventually
-                moved me to Firefox anyways.
-              </p>
-            </div>
-            <img src={cookie} alt="test"></img>
-          </div>
-          <div className={experienceStyles.job}>
-            <div className={experienceStyles.content}>
-              <h2>
-                <a
-                  href="https://github.com/buddysystems/buddysystems.github.io"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  BuddySystems website
-                </a>
-              </h2>
-              <p>
-                BuddySystems is a group consisting of myself and a few of my
-                friends also in software engineering at UNL. This group was also
-                behind the Cookie Jar and Axel Wilson's Mixtape Maker.
-              </p>
-              <p>
-                This was the first website I built. I learned some HTML/CSS
-                basics and hit the ground running.
-              </p>
-            </div>
-
-            <img
-              className={experienceStyles.bs}
-              src={buddySystems}
-              alt="test"
-            ></img>
-          </div>
-          <div className={experienceStyles.job}>
-            <div className={experienceStyles.content}>
-              <h2>
-                <a
-                  href="https://github.com/CodeCricut/RetroPlaylistGenerator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Axel Wilson's Mixtape Maker!
-                </a>
-              </h2>
-              <p>
-                Axel Wilson was birthed from{" "}
-                <a href="https://unlcornhacks.com/">Cornhacks 2022</a>, UNL's
-                annual hackathon.
-              </p>
-              <p>
-                The idea was to take users on a "Choose Your Own Adventure"
-                journey through making a playlist. Users are given choices of
-                different songs to add - and the songs they select will
-                influence the next selection of songs to choose from.
-              </p>
-              <p>
-                We built a playlist generator using Spotify's API with Python.
-                The original plan was to use a Python GUI, but as the night went
-                on we decided that a web frontend would be better. Before we
-                knew it, we had a fullstack application with React as our
-                frontend.
-              </p>
-            </div>
-            <img src={axel} alt="test"></img>
-          </div>
         </div>
       </div>
     </>

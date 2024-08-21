@@ -33,16 +33,15 @@ function Home() {
       <div>
         <div className={homeStyles.about}>
           <p className={homeStyles.p}>
-            I'm currently a junior at the University of Nebraska at Lincoln.
-            I'm majoring in software engineering with a minor in
-            entrepreneurship. You can find my professional and maybe not-so
-            professional experiences in software development under the{" "}
+            I'm currently a senior at the University of Nebraska at Lincoln. I'm
+            majoring in computer science with a minor in entrepreneurship. You
+            can see what I've been working on in development under the{" "}
             <Link to="/experience">experience</Link> tab.
           </p>
           <p className={homeStyles.p}>
             I'm also passionate about music production and audio engineering.
-            I'm posting my music and I'm blogging about producing under 
-            the <Link to="/blog">blog</Link> tab.
+            I'm posting my music and I'm blogging about producing under the{" "}
+            <Link to="/blog">blog</Link> tab.
           </p>
           <p className={homeStyles.right}>*(and many other instruments)</p>
         </div>

@@ -6,6 +6,10 @@ isPublished: true
 publishedDate: 2024/03/08
 ---
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jsEufRCPrrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+big shoutout to the homie Evin Rasho for putting this video together!!
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/qHHeXOPKQas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
