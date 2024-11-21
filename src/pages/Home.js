@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <div className={homeStyles["project-link"]}>
-        <Link to="/narrative-theology">LINK TO PHIL235 PROJECT</Link>
+        <Link to="/narrative-theology">LINK TO PHIL265 PROJECT</Link>
       </div>
       <div className={homeStyles["left-container"]}>
         <h1>Hello!</h1>
