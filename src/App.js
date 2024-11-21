@@ -12,12 +12,14 @@ import ApproachToSalvation from "./pages/ApproachToSalvation.js";
 import NonInferentialRichness from "./pages/NonInferentialRichness.js";
 import DivineHiddenness from "./pages/DivineHiddenness.js";
 import SystematicTheology from "./pages/SystematicTheology.js";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="hello">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Resume />} />
