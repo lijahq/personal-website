@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
+      <div className={homeStyles["project-link"]}>
+        <Link to="/narrative-theology">LINK TO PHIL235 PROJECT</Link>
+      </div>
       <div className={homeStyles["left-container"]}>
         <h1>Hello!</h1>
         <img src={photo} alt="uke" className={homeStyles.image}></img>

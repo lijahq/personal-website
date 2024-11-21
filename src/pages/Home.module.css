@@ -52,6 +52,13 @@
   margin: 0;
 }
 
+.project-link {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+  margin: 0 0 2rem 0rem;
+}
+
 @media only screen and (max-width: 640px) {
   .image {
     max-width: 100%;

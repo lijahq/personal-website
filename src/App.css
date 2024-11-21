@@ -70,6 +70,10 @@ img {
   max-width: 100%;
 }
 
+.special-img {
+  max-height: 500px;
+}
+
 hr {
   border: 1px solid;
   border-color: white;
